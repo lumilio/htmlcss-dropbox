@@ -92,7 +92,7 @@ nav #button1:hover{
 
 /* main */
 
-
+/* box1 */
 
 
 .box1{
@@ -158,4 +158,13 @@ nav #button1:hover{
 .pulsanti-main img{
     max-width: 30px;
     padding-top: 30px;
+}
+
+
+/* box2 */
+
+.box2{
+    width: 77%;
+    position: relative;
+   
 }
