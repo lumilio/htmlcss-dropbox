@@ -14,12 +14,15 @@ body{
     width: 1440px;
     margin: auto;
     font-family: 'Open Sans',sans-serif;
+    font-size: smaller;
 }
 
 header{
     height: 70px;
     width: 100%;
-    background-color: #265ee8;
+    background-color: white;
+    position: fixed;       
+    z-index: 1;
 }
 
 nav{
@@ -37,11 +40,16 @@ nav{
 }
 
 .logo{
-    width: 70%; 
+    width: 73%; 
 }
 
 .apri{
-    width: 30%; 
+    width: 27%; 
+}
+
+.logo img{
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .logo li , .apri li{
@@ -53,7 +61,7 @@ nav{
 
 .logo  a , .apri a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .logo  a:hover , .apri a:hover{
@@ -61,19 +69,93 @@ nav{
 }
 
 nav #button1 {
-    padding: 10px 17px;
+    padding: 9px 15px;
     text-decoration: none;
     font-size: 13px;
-    border-radius: 20px;
     border: none;
-    right: 0;
+    right: 20px;
     position: absolute;
     cursor: pointer;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     transition: 0.3s;
+    background-color: #0061ff;
+    color: white;
 }
 
 nav #button1:hover{
     color: #8ea1e1;
     box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+
+
+
+/* main */
+
+
+
+
+.box1{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-size: 1440px auto;
+    background-color: #b4d0e7;
+   
+}
+
+.box1 h1 {
+    font-size: 65px;
+    padding-bottom: 35px;
+}
+
+.paragrafo > p{
+    padding-right: 70px;
+}
+
+.hero-txt{
+    width: 80%;
+    color: black;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.colonna1 , .colonna2 {
+    float: left;
+}
+
+.colonna1{
+    width: 34%;
+}
+
+.colonna2{
+    width: 66%;
+}
+
+.colonna2 img{
+    max-width: 720px;
+}
+
+.colonna1 #button1 {
+    padding: 9px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.3s;
+    margin-top: 30px;
+    background-color: #0061ff;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.pulsanti-main p > a{
+    text-decoration: none;
+    color: black;
+}
+
+.pulsanti-main img{
+    max-width: 30px;
+    padding-top: 30px;
 }
