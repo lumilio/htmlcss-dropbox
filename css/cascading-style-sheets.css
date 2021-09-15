@@ -266,7 +266,11 @@ nav #button1:hover{
 
 .info-piano ul{
     margin-top: 20px;
-    list-style:none
+    list-style: none;
+}
+
+.info-piano li:before {
+    content: '.check';
 }
 
 .info-piano li{
