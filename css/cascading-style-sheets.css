@@ -226,8 +226,16 @@ nav #button1:hover{
     padding: 25px;
 }
 
+.info-piano .benefit{
+    margin-bottom: 50px;
+}
+
 .info-piano p{
     padding-top: 20px;
+}
+
+.info-piano a{
+    color: blue;
 }
 
 .info-piano span{
@@ -245,4 +253,39 @@ nav #button1:hover{
     background-color: #0061ff;
     color: white;
     margin-top: 50px;
+    font-size: smaller;
+    margin: auto;
 }    
+
+.info-piano hr{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 20%;
+    color: gray;
+}
+
+.info-piano ul{
+    margin-top: 20px;
+    list-style:none
+}
+
+.info-piano li{
+    line-height: 30px;
+}
+
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    margin-left: 8px;
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+:root {
+    --borderWidth: 3px;
+    --height: 12px;
+    --width: 6px;
+    --borderColor: blue;
+}
