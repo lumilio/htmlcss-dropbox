@@ -315,7 +315,7 @@ nav #button1:hover{
 
 .trova-partner{
     width: 100%;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .trova-partner .pic , .trova-partner .txt{
@@ -351,4 +351,58 @@ nav #button1:hover{
     transition: 0.3s;
     background-color: white;
     color: black;
+}
+
+/* sezione griglia Dropbox Business */
+
+
+.griglia-ops{
+    margin-top: 90px;
+    width: 100%;
+}
+
+.griglia-ops h2{
+    margin-bottom: 60px;
+}
+
+.griglia-ops p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.griglia-ops .item {
+    float: left;
+    width: 33%;
+    padding-right: 50px;
+}
+
+.griglia-ops .item h3{
+    font-size: large;
+}
+
+.griglia-ops .item img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.griglia-ops .row{
+    padding-bottom: 60px;
+}
+
+
+/* sezione scopri di più */
+
+
+.scopri-txt h2{
+    width: 50%;
+    margin-top: 70px;
+}
+
+.scopri-txt p{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.scopri-txt a{
+    color: blue;
 }
