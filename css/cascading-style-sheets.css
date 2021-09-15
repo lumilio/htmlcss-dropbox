@@ -178,6 +178,8 @@ nav #button1:hover{
 
 /* box2 */
 
+/* lista abbonamenti */
+
 
 .box2{
     width: 65%;
@@ -202,8 +204,6 @@ nav #button1:hover{
 .piani-abbonamento{
     margin-top: 30px;
     width: 100%;
-/* 
-    background-color: greenyellow; */
 }
 
 .col-2{
@@ -218,7 +218,7 @@ nav #button1:hover{
     border: 1px solid grey;
 }
 
-.piani-abbonamento .utente{
+.box2 .utente{
     text-align: center;
     line-height: 35px;
     border-bottom: 1px solid grey;
@@ -279,6 +279,76 @@ nav #button1:hover{
 }
 
 .col-4{
-   
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid grey;
+    position: relative;
 }
 
+.col-4 .info-enterprise{
+    padding: 20px;
+    margin-top: 8px;
+}
+
+.info-enterprise p{
+    padding-top: 20px;
+    font-size: smaller;
+}
+
+.info-enterprise #button1 {
+    padding: 9px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    right: 30px;
+    top: 60px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #0061ff;
+    color: white;
+    display: inline;
+}
+
+
+/* sezione partner */
+
+
+.trova-partner{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.trova-partner .pic , .trova-partner .txt{
+    float: left;
+}
+
+.trova-partner .txt{
+    padding: 40px;
+    width: 45%;
+}
+
+.trova-partner .pic{
+    float: left;
+    width: 55%;
+}
+
+.trova-partner img{
+    max-width: 100%;
+}
+
+.trova-partner p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.trova-partner #button1{
+    padding: 9px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
