@@ -590,10 +590,65 @@ nav #button1:hover{
 .box5-txt p{
     padding-top: 25px;
     padding-bottom: 25px;
+    display: inline-block;
+    padding-right: 340px;
 }
 
+.box5-txt img{
+    max-width: 3%;
+    display: inline-block;
+    vertical-align: middle; 
+}
 
+#a1 , #a2 , #a3 , #a4{
+    display: none;
+    color: #8d8d8f;
+    margin-bottom: 20px;
+}
 
+#q1 , #q2 , #q3 , #q4 {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.box5-txt #q1:hover ~ #a1 , .box5-txt #qq1:hover ~ #a1 {
+    display: block;
+}
+
+.box5-txt #q2:hover ~ #a2 , .box5-txt #qq2:hover ~ #a2 {
+    display: block;
+}
+
+.box5-txt #q3:hover ~ #a3 , .box5-txt #qq3:hover ~ #a3 {
+    display: block;
+}
+
+.box5-txt #q4:hover ~ #a4 , .box5-txt #qq4:hover ~ #a4 {
+    display: block;
+}
+
+.box5-txt #q1:hover  , .box5-txt #qq1:hover  ~ #q1{
+    cursor: default;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.box5-txt #q2:hover  , .box5-txt #qq2:hover  ~ #q2{
+    cursor: default;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.box5-txt #q3:hover  , .box5-txt #qq3:hover  ~ #q3{
+    cursor: default;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.box5-txt #q4:hover  , .box5-txt #qq4:hover  ~ #q4{
+    cursor: default;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out 0s;
+}
 
 
 /* footer */
