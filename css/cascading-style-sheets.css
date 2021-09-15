@@ -406,3 +406,42 @@ nav #button1:hover{
 .scopri-txt a{
     color: blue;
 }
+
+
+/* box3  */
+
+/* sezione parthnership */
+
+
+.box3{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+}
+
+.box3 .cube{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: burlywood;
+    float: left;
+}
+
+.box3 .cubex{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: burlywood;
+    float: left;
+}
+
+.box3 .cuber{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: burlywood;
+    float: left;
+}
+
+
+
