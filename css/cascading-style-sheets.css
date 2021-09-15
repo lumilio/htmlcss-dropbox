@@ -257,7 +257,11 @@ nav #button1:hover{
     margin-top: 50px;
     font-size: smaller;
     margin: auto;
-}    
+}
+
+.info-piano #button1:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);   
+}
 
 .info-piano hr{
     margin-top: 20px;
@@ -309,6 +313,11 @@ nav #button1:hover{
     background-color: #0061ff;
     color: white;
     display: inline;
+    transition: 0.3s;
+}
+
+.info-enterprise #button1:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
 
 
@@ -353,6 +362,14 @@ nav #button1:hover{
     transition: 0.3s;
     background-color: white;
     color: black;
+    transition: 0.3;
+}
+
+.trova-partner #button1:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    background-color: #0061ff ;
+    color: white;
+    border: #0061ff ;
 }
 
 /* sezione griglia Dropbox Business */
@@ -530,13 +547,18 @@ nav #button1:hover{
     top:130px;
     right:0;
     position: absolute;
-
-
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     transition: 0.3s;
     background-color: white;
     color: black;
+}
+
+.box4 #button1:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    background-color: #0061ff ;
+    color: white;
+    border: #0061ff ;
 }
 
 
@@ -629,4 +651,14 @@ footer{
     background:none;
     color: white;
     border: none;
+}
+
+.boxcolonne li:hover{
+    text-decoration: underline;
+}
+
+.boxcolonne img {
+    max-width: 15px;
+    z-index: 1;
+    filter: invert(100%);
 }
