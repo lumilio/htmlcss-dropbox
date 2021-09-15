@@ -10,20 +10,21 @@
     display: table;
 }
 
-body{
+.box-pagina{
     width: 1440px;
     margin: auto;
     font-family: 'Open Sans',sans-serif;
     font-size: smaller;
+    position: relative;
 }
 
 header{
-    height: 70px;
-    width: 100%;
-    background-color: white;
-    position: fixed;       
+    height: 73px;
+    width: 1440px;
+    background-color: white;     
     z-index: 1;
-}
+    position: fixed;
+}    
 
 nav{
     margin: auto;
@@ -40,11 +41,11 @@ nav{
 }
 
 .logo{
-    width: 73%; 
+    width: 68%; 
 }
 
 .apri{
-    width: 27%; 
+    width: 32%; 
 }
 
 .logo img{
@@ -53,10 +54,16 @@ nav{
 }
 
 .logo li , .apri li{
-    line-height: 80px;
+    line-height: 70px;
     display: inline-block;
     list-style: none;
     margin: 0 15px;
+    border-bottom: 3px solid white;
+}
+
+.logo li:hover , .apri li:hover{
+    border-bottom: 3px solid black;
+    cursor: pointer;
 }
 
 .logo  a , .apri a {
@@ -64,16 +71,16 @@ nav{
     color: black;
 }
 
-.logo  a:hover , .apri a:hover{
+/* .logo  a:hover , .apri a:hover{
     text-decoration: underline;
-}
+} */
 
 nav #button1 {
     padding: 9px 15px;
     text-decoration: none;
     font-size: 13px;
     border: none;
-    right: 20px;
+    right: 30px;
     position: absolute;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -83,7 +90,6 @@ nav #button1 {
 }
 
 nav #button1:hover{
-    color: #8ea1e1;
     box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
 
@@ -148,6 +154,10 @@ nav #button1:hover{
     background-color: #0061ff;
     color: white;
     margin-bottom: 15px;
+}
+
+.colonna1 #button1:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
 
 .pulsanti-main p > a{
