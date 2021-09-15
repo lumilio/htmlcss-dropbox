@@ -496,3 +496,76 @@ nav #button1:hover{
 }
 
 
+
+/* box4 */
+
+
+.box4{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.box4 h2{
+    font-size: 30px;
+    color: #630d30;
+    max-width: 360px;
+
+}
+
+.box4-txt{
+    width: 66%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 110px;
+}
+
+.box4 #button1 {
+    float: right;
+    padding: 6px 37px;
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    top:130px;
+    right:0;
+    position: absolute;
+
+
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+
+/* box 5 domande frequenti */
+
+.box5{
+    width: 100%;
+}
+
+.box5-txt{
+    margin: auto;
+    width: 66%;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.box5-txt h2{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.box5-txt hr{
+    background-color: rgb(197, 196, 196);
+    height: 1px; 
+    border: 0;
+}
+
+.box5-txt p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
