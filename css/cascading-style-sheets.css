@@ -215,7 +215,7 @@ nav #button1:hover{
 .col-1 , .col-2 , .col-3 {
     float: left;
     width: 31%;
-    height: 850px;
+    height: 950px;
     border: 1px solid #d4d4d7;
 }
 
@@ -233,17 +233,8 @@ nav #button1:hover{
     margin-bottom: 50px;
 }
 
-.info-piano p{
-    padding-top: 20px;
-}
-
 .info-piano a{
     color: blue;
-}
-
-.info-piano span{
-    line-height: 30px;
-    color: gray;
 }
 
 .info-piano #button1 {
@@ -273,16 +264,55 @@ nav #button1:hover{
     border: 0;
 }
 
-.info-piano ul {
-    list-style: none;
-    padding-left: 20px;
-
+.info-piano #time{
+    padding-bottom: 40px;
+    padding-top: 10px;
+    color: gray;
 }
 
-.info-piano li {
+.info-piano p{
+    padding-top: 20px;
+}
+
+.info-piano .list1 {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.info-piano .list1 li {
     position: relative;
     padding-top: 22px; 
     list-style-image: url(../img/check.svg); 
+}
+
+.list2 .c1 {
+	margin: 0;
+	padding: 0px 0px 0px 20px;
+	list-style: none;
+	background-image: url("../../img/user1.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 13px;
+}
+
+.list2 .c2 {
+	margin: 0;
+	padding: 20px 0px 0px 20px;
+	list-style: none;
+	background-image: url("../img/folder.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 13px;
+}
+
+.list2 .c3 {
+	margin: 0;
+	padding: 20px 0px 0px 20px;
+	list-style: none;
+	background-image: url("../img/pen.png");
+	background-repeat: no-repeat;
+	background-position: left ;
+	background-size: 13px;
 }
 
 .col-4{
