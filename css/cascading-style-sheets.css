@@ -372,8 +372,13 @@ nav #button1:hover{
 }
 
 .trova-partner .txt{
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
     width: 45%;
+}
+
+.trova-partner .txt h3{
+    max-width: 280px;
 }
 
 .trova-partner .pic{
@@ -414,7 +419,7 @@ nav #button1:hover{
 
 
 .griglia-ops{
-    margin-top: 90px;
+    margin-top: 150px;
     width: 100%;
 }
 
@@ -467,7 +472,7 @@ nav #button1:hover{
 
 /* box3  */
 
-/* sezione parthnership */
+/* sezione partnership */
 
 
 .box3{
