@@ -12,7 +12,7 @@
 }
 
 .box-pagina{
-    width: 1440px;
+    width: 1440px;    /*  mi è stato detto di non dare mai dimensioni al body */
     margin: auto;
     font-family: 'Open Sans',sans-serif;
     font-size: smaller;
@@ -72,10 +72,6 @@ nav{
     color: black;
 }
 
-/* .logo  a:hover , .apri a:hover{
-    text-decoration: underline;
-} */
-
 nav #button1 {
     padding: 9px 15px;
     text-decoration: none;
@@ -95,6 +91,32 @@ nav #button1:hover{
 }
 
 
+.drop-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.drop-menu a{
+    padding: 20px;
+    display: block;
+}
+
+.drop-menu a:hover{
+    background-color: #0061ff;
+    color: white;
+}
+
+.drop-menu:hover{
+    display: block;   
+}
+
+.button-menu:hover ~ .drop-menu {
+    display: block;
+}
 
 
 /* main */
@@ -215,7 +237,7 @@ nav #button1:hover{
 .col-1 , .col-2 , .col-3 {
     float: left;
     width: 31%;
-    height: 950px;
+    min-height: 1000px;
     border: 1px solid #d4d4d7;
 }
 
@@ -231,6 +253,10 @@ nav #button1:hover{
 
 .info-piano .benefit{
     margin-bottom: 50px;
+}
+
+.info-piano h3{
+    padding-top: 10px;
 }
 
 .info-piano a{
