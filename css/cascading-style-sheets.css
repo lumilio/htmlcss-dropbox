@@ -434,8 +434,12 @@ nav #button1:hover{
 
 .griglia-ops .item {
     float: left;
-    width: 33%;
-    padding-right: 50px;
+    width: 29%;
+}
+
+.griglia-ops #item-centrale{
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .griglia-ops .item h3{
@@ -457,7 +461,7 @@ nav #button1:hover{
 
 .scopri-txt h2{
     width: 50%;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .scopri-txt p{
